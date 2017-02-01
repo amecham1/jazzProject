@@ -1,0 +1,16 @@
+import React from 'react'
+import './header.scss'
+import Banner from '../Banner/Banner.js'
+
+class Header extends React.Component {
+  render () {
+    return (
+      <div className='main-header'>
+        <Banner />
+
+      </div>
+    )
+  }
+}
+
+export default Header

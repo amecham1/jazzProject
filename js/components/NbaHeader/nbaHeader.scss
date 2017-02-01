@@ -1,0 +1,23 @@
+@import './js/scss/base.scss';
+
+.nba-header{
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+}
+
+.nba-logo{
+  width: 15vw;
+  padding-left: 40px;
+  // padding-bottom: 40px;
+}
+
+.nba-menu{
+  display: flex;
+  justify-content: space-around;
+}
+.nba-menu-item{
+  padding: 12px 10px 5px 10px;
+  margin-bottom: 5px;
+  color: $nba-color;
+}
