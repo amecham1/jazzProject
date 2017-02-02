@@ -1,0 +1,14 @@
+@import './js/scss/base.scss';
+
+.header-menu-list{
+  margin-top: 81px;
+  margin-left: -36%;
+  display: flex;
+}
+
+.header-menu-item{
+  padding-left: 20px;
+  font-size: 1.2em;
+  font-family: $header-font;
+  color: $jazz-blue;
+}
