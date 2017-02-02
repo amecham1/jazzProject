@@ -7,6 +7,7 @@ class Header extends React.Component {
     return (
       <div className='main-header'>
         <Banner />
+        <img className='jazz-logo-header' src='js/img/jazz-logo.svg' alt='Jazz-logo' />
 
       </div>
     )

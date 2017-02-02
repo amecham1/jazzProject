@@ -2,24 +2,24 @@
 
 .banner-div{
   width: 80px;
-  height: 91px;
+  height: 18vh;
   // background-color: $jazz-blue;
   margin-left: 50px;
 }
 
 .banner-stripe{
   width: 20px;
-	height: 91px;
+	height: 18vh;
   transform: skew(-19deg);
   display: inline-block;
   float: right;
 }
 #banner-color-one{
-  background-color: $jazz-blue;
+  background-color: $jazz-green;
 }
 #banner-color-two{
   background-color: $jazz-white;
 }
 #banner-color-three{
-  background-color: $jazz-green;
+  background-color: $jazz-blue;
 }
