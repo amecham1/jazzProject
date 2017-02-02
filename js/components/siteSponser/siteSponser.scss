@@ -1,0 +1,16 @@
+@import './js/scss/base.scss';
+
+.sponsor-box{
+  padding: 20px 0 10px 45px;
+  font-family: $sponser-font;
+}
+.intro-to-sponser{
+  color: $jazz-green;
+  font-size: .6em;
+  font-weight: bold;
+}
+.sponsor-Name{
+  color: $jazz-blue;
+  font-size: 1.3em;
+  margin-top: 45px;
+}
