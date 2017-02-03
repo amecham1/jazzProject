@@ -6,6 +6,8 @@ import NbaHeader from './components/NbaHeader/NbaHeader'
 import Header from './components/header/Header'
 import LandingPhoto from './components/landingPhoto/LandingPhoto'
 import SuiteTitle from './components/suiteTitle/SuiteTitle.js'
+import LexusClub from './components/lexusClub/LexusClub.js'
+import ExecutivesClub from './components/executiveClub/ExecutivesClub.js'
 
 const App = React.createClass({
   render () {
@@ -15,6 +17,8 @@ const App = React.createClass({
         <Header />
         <LandingPhoto />
         <SuiteTitle />
+        <LexusClub />
+        <ExecutivesClub />
       </div>
     )
   }

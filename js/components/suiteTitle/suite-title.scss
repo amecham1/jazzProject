@@ -1,7 +1,12 @@
 @import './js/scss/base.scss';
 
+.suite-title-begin{
+  margin-top: 110px;
+}
 .suite-title{
-  margin: 110px auto 0 auto;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px 0 10px 0;
   width: 90vw;
   display: flex;
