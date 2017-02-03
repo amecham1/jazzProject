@@ -1,0 +1,32 @@
+@import './js/scss/base.scss';
+
+.landing-photo{
+  width: 100vw;
+  height: 20vh;
+}
+
+.landing-photo-acutal{
+  width: 100vw;
+  height: 40vh;
+  // background-size: cover;
+}
+.landing-info{
+  display: flex;
+  justify-content: center;
+
+}
+.landing-title{
+  margin-top: -180px;
+  // padding-bottom: 30px;
+  font-size: 3em;
+  color: $jazz-white;
+  font-weight: bold;
+  font-family: $header-font;
+
+}
+.landing-sub-title{
+padding-top: 20px;
+color: $jazz-white;
+font-size: 1.5em;
+font-weight: bold;
+}

@@ -1,0 +1,19 @@
+@import './js/scss/base.scss';
+
+.suite-title{
+  margin: 110px auto 0 auto;
+  padding: 10px 0 10px 0;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  border-top: solid 1px $jazz-green;
+  border-bottom: solid 1px $jazz-blue;
+
+}
+.suite-name{
+  font-size: 2.5em;
+  color: $jazz-blue;
+}
+.down-arrow-box{
+  margin-left: 2%;
+}
