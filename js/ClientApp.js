@@ -9,7 +9,7 @@ import SuiteTitle from './components/suiteTitle/SuiteTitle.js'
 import LexusClub from './components/lexusClub/LexusClub.js'
 import ExecutivesClub from './components/executiveClub/ExecutivesClub.js'
 
-const App = React.createClass({
+class App extends React.Component {
   render () {
     return (
       <div>
@@ -22,6 +22,6 @@ const App = React.createClass({
       </div>
     )
   }
-})
+}
 
 render(<App />, document.getElementById('app'))

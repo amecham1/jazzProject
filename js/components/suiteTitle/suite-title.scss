@@ -2,6 +2,7 @@
 
 .suite-title-begin{
   margin-top: 110px;
+  background-color: $jazz-green;
 }
 .suite-title{
   margin-bottom: 30px;
@@ -11,8 +12,8 @@
   width: 90vw;
   display: flex;
   justify-content: center;
-  border-top: solid 1px $jazz-green;
-  border-bottom: solid 1px $jazz-blue;
+  border-top: solid 2px $jazz-green;
+  border-bottom: solid 2px $jazz-blue;
 
 }
 .suite-name{
