@@ -20,9 +20,9 @@ class SuiteTitle extends React.Component {
   // sets the height when opened and closed
   getContentToggleHeight () {
     if (this.state.open) {
-      return '80vh'
+      return 'suite-open'
     } else {
-      return '10vh'
+      return 'suite-closed'
     }
   }
   // sets the backgroung color when opened and closed
@@ -42,17 +42,21 @@ class SuiteTitle extends React.Component {
     }
   }
   render () {
-    let contentStyle = { height: this.getContentToggleHeight(),
-    backgroundColor: this.changeBackgroundColor() }
-    // let showContent = { display: this.revealContent() }
+    // let contentStyle = { height: this.getContentToggleHeight(),
+    // backgroundColor: this.changeBackgroundColor() }
+    let contentStyle = this.getContentToggleHeight()
     return (
       <div>
-        <div style={contentStyle} className='suite-title suite-title-begin' onClick={this.toggleContent}>
-          <p className='suite-name'>LUXURY SUITES</p>
-          <div className='down-arrow-box'>
-            <img className='down-arrow' src='js/img/Down Arrow.svg' alt='down facing arrowhead' />
+        <div className='suite-title suite-title-begin'>
+          <div className='suite-clickable-area' onClick={this.toggleContent} >
+            <p className='suite-name'>LUXURY SUITES</p>
+            <div className='down-arrow-box'>
+              <img className='down-arrow' src='js/img/Down Arrow.svg' alt='down facing arrowhead' />
+            </div>
           </div>
-          <SuiteContent containerStatus={this.state.open} />
+          <div className={contentStyle}>
+            <SuiteContent containerStatus={this.state.open} />
+          </div>
         </div>
       </div>
     )

@@ -1,13 +1,15 @@
 @import './js/scss/base.scss';
 
-.landing-photo{
+.landing-photo-box{
   width: 100vw;
-  height: 20vh;
+  // height: 20vh;
+  position: relative;
 }
 
 .landing-photo-acutal{
   width: 100vw;
   height: 40vh;
+  margin-bottom: 10px;
   // background-size: cover;
 }
 .landing-info{
@@ -16,8 +18,11 @@
 
 }
 .landing-title{
-  margin-top: -180px;
+  // margin-top: 180px;
   // padding-bottom: 30px;
+  position: absolute;
+  top: 25%;
+  left: 33%;
   font-size: 3em;
   color: $jazz-white;
   font-weight: bold;
@@ -29,4 +34,7 @@ padding-top: 20px;
 color: $jazz-white;
 font-size: 1.5em;
 font-weight: bold;
+position: absolute;
+top: 40%;
+left: 27%
 }
