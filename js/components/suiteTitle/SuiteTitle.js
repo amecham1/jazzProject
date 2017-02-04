@@ -46,12 +46,14 @@ class SuiteTitle extends React.Component {
     backgroundColor: this.changeBackgroundColor() }
     // let showContent = { display: this.revealContent() }
     return (
-      <div style={contentStyle} className='suite-title suite-title-begin' onClick={this.toggleContent}>
-        <p className='suite-name'>LUXURY SUITES</p>
-        <div className='down-arrow-box'>
-          <img className='down-arrow' src='js/img/Down Arrow.svg' alt='down facing arrowhead' />
+      <div>
+        <div style={contentStyle} className='suite-title suite-title-begin' onClick={this.toggleContent}>
+          <p className='suite-name'>LUXURY SUITES</p>
+          <div className='down-arrow-box'>
+            <img className='down-arrow' src='js/img/Down Arrow.svg' alt='down facing arrowhead' />
+          </div>
+          <SuiteContent containerStatus={this.state.open} />
         </div>
-        <SuiteContent containerStatus={this.state.open} />
       </div>
     )
   }

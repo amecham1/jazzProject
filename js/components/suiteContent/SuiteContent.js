@@ -22,8 +22,8 @@ class SuiteContent extends React.Component {
   render () {
     let showContainer = this.viewContent()
     return (
-      <div >
-        <p className={showContainer}>is hkjhkjhjk working</p>
+      <div className={showContainer}>
+        <p>is hkjhkjhjk working</p>
       </div>
     )
   }
