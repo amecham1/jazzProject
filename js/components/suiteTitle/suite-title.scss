@@ -2,7 +2,7 @@
 
 .suite-title-begin{
   margin-top: 110px;
-  background-color: $jazz-green;
+  transition: height 0.4s ease-out;
 }
 .suite-title{
   margin-bottom: 30px;
@@ -22,4 +22,13 @@
 }
 .down-arrow-box{
   margin-left: 2%;
+}
+
+.closedSuite{
+  height: 10vh;
+  background-color: $jazz-yellow;
+}
+.openSuite{
+  height: 80vh;
+  background-color: $jazz-white;
 }

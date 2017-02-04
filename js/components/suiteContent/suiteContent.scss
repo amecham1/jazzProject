@@ -1,0 +1,10 @@
+@import './js/scss/base.scss';
+
+.open-content{
+  display: block;
+  margin-top: 100px;
+  color: $jazz-green
+}
+.close-content{
+  display: none;
+}
