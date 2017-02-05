@@ -11,9 +11,13 @@ $header-font: Arial,"Helvetica Neue", Helvetica,sans-serif;
   width: 90vw;
   text-align: center;
 }
+.room-names{
+  font-size: 2.5em;
+  margin-right: 20px;
+}
 
 .room-containers{
-  margin: 0 auto 0 auto;
+  margin: 0 auto 5% auto;
 }
 
 .room-top-photo{
@@ -29,4 +33,9 @@ $header-font: Arial,"Helvetica Neue", Helvetica,sans-serif;
 
 .placement-left-total{
   padding-right: 5px;
+}
+
+.cta-info{
+  color: $jazz-yellow;
+  font-weight: bold;
 }

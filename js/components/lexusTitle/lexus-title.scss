@@ -1,9 +1,11 @@
 @import './js/scss/base.scss';
 
-.suite-option-two{
+.lexus-title{
   background-color: $jazz-green;
+  @extend .room-titles;
 }
 
-.suite-option-two-title{
+.lexus-name{
   color: $jazz-white;
+  @extend .room-names;
 }

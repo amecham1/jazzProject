@@ -6,7 +6,6 @@
   @extend .room-titles;
 }
 .suite-name{
-  font-size: 2.5em;
   color: $jazz-blue;
-  margin-right: 20px;
+  @extend .room-names;
 }

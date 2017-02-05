@@ -2,7 +2,6 @@
 
 .suite-text-container{
   width: 45%;
-  height: 80vh;
   margin: 4% 0 0 0;
 }
 
@@ -11,11 +10,9 @@
   font-size: 1.7em;
   padding: 10px 0 10px 0;
   color: $jazz-blue;
-  // line-height: 1.3;
-
 }
 .suite-paragraph{
-  padding: 10px 0 10px 0;
+  padding: 5px 0 5px 0;
   color: $jazz-blue;
   line-height: 1.4;
 
@@ -25,13 +22,9 @@
 }
 
 .cta-name{
-  color: $jazz-yellow;
-  font-size: 1.3em;
-  font-weight: bold;
+ @extend .cta-info;
 }
 
 .cta-phone-number{
-  color: $jazz-yellow;
-  font-weight: bold;
-  font-weight: 1.3em;
+@extend .cta-info;
 }

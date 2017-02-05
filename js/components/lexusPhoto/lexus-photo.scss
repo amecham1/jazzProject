@@ -1,0 +1,19 @@
+@import './js/scss/base.scss';
+
+
+.lexus-photo-container{
+  width: 600px;
+  float: left;
+  margin: 1% 0 0 5%;
+}
+
+.lexus-main-photo{
+ @extend .room-top-photo;
+}
+.lexus-group-photo{
+ @extend .group-photo-total;
+}
+
+.lexus-placement-left{
+  @extend .placement-left-total;
+}
