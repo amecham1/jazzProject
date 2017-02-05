@@ -1,31 +1,12 @@
 @import './js/scss/base.scss';
 
-.suite-title-begin{
-  transition: height 0.4s ease-out;
-  background-color: $jazz-yellow;
-}
+
 .suite-title{
-  margin: 0 auto 30px auto;
-  padding: 10px 0 10px 0;
-  width: 90vw;
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: center;
-
-}
-.suite-clickable-area{
-  display: flex;
-
+  background-color: $jazz-yellow;
+  @extend .room-titles;
 }
 .suite-name{
   font-size: 2.5em;
   color: $jazz-blue;
   margin-right: 20px;
-}
-.suite-open{
-  height: 80vh;
-  background-color: $jazz-white;
-}
-.suite-closed{
-  height: 0vh;
 }
