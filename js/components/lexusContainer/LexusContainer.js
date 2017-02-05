@@ -3,12 +3,14 @@ import './lexus-container.scss'
 
 import LexusTitle from '../lexusTitle/LexusTitle'
 import LexusPhoto from '../lexusPhoto/LexusPhoto'
+import LexusText from '../lexusText/LexusText'
 
 class LexusContainer extends React.Component {
   render () {
     return (
       <div>
         <LexusTitle />
+        <LexusText />
         <LexusPhoto />
       </div>
     )
