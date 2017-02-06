@@ -1,0 +1,19 @@
+@import './js/scss/base.scss';
+
+
+.executive-photo-container{
+  width: 600px;
+  float: right;
+  margin: 1% 5% 0 0;
+}
+
+.executive-main-photo{
+ @extend .room-top-photo;
+}
+.executive-group-photo{
+ @extend .group-photo-total;
+}
+
+.executive-placement-left{
+  @extend .placement-left-total;
+}

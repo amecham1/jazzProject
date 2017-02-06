@@ -1,0 +1,11 @@
+@import './js/scss/base.scss';
+
+.executive-title{
+  background-color: $jazz-blue;
+  @extend .room-titles;
+}
+
+.executive-name{
+  color: $jazz-yellow;
+  @extend .room-names;
+}

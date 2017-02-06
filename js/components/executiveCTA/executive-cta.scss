@@ -1,0 +1,19 @@
+@import './js/scss/base.scss';
+
+.executive-cta-container{
+  float: right;
+  width: 45%;
+  margin: -8% 5% 0 0;
+}
+
+.cta-paragraph{
+  font-size: 1.2em;
+}
+
+.cta-name{
+ @extend .cta-info;
+}
+
+.cta-phone-number{
+@extend .cta-info;
+}
