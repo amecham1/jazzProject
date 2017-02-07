@@ -1,0 +1,22 @@
+@import './js/scss/base.scss';
+
+.sidemenu{
+  display: none;
+}
+
+.open {
+  position: absolute;
+  top: 68px;
+  right: -121px;
+  height: 58%;
+  width: 284px;
+  transition: right 1s ease-in;
+  background-color: white;
+  z-index: 2;
+}
+
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
+  .sidebarcontainer{
+    display: none;
+  }
+}

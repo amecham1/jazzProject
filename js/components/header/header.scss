@@ -18,5 +18,7 @@
   }
   .main-header{
     height: 12vh;
+    display: flex;
+    justify-content: space-around;
   }
 }
