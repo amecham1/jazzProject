@@ -992,7 +992,7 @@ table {
   }
 
   .landing-photo-box {
-    height: 65vh;
+    height: 56vh;
   }
 }.room-titles {
   margin: 0 auto 30px auto;
@@ -1050,6 +1050,12 @@ table {
 
 .suite-container {
   width: 90vw;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }.room-titles,
 .suite-title {
   margin: 0 auto 30px auto;
