@@ -6,6 +6,7 @@ class HeaderMenu extends React.Component {
     return (
       <div className='header-menu'>
         <ul className='header-menu-list'>
+          {/* none of these items are connected, no functionality to them,yet. */}
           <li className='header-menu-item'>Tickets</li>
           <li className='header-menu-item'>Schedule</li>
           <li className='header-menu-item'>Team</li>

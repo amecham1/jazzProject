@@ -6,6 +6,7 @@ class SideMenuList extends React.Component {
     return (
       <div className='header-side-menu'>
         <ul className='header-side-menu-list'>
+          {/* none of these items are link, no functionality to them, yet */}
           <li className='header-side-menu-item'>Tickets</li>
           <li className='header-side-menu-item'>Schedule</li>
           <li className='header-side-menu-item'>Team</li>
