@@ -33,14 +33,14 @@
 @media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
   .lexus-text-container{
     width: 90%;
-    text-align: center;
+    text-align: left;
     float: none;
   }
 }
 @media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
   .lexus-text-container{
     width: 100%;
-    text-align: center;
+    text-align: left;
     float: none;
   }
 }
@@ -48,8 +48,5 @@
   .lexus-text-container{
     width: 45%;
     margin: 1% 0 0 0%;
-
-    // text-align: center;
-    // float: none;
   }
 }
