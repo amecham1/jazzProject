@@ -1,12 +1,6 @@
 @import './js/scss/base.scss';
 
 .lexus-container{
-  height: 115vh;
-}
-
-@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
-  .lexus-container{
-    height: auto;
-    margin-bottom: 10%;
-  }
+  width: 90vw;
+  @extend .room-containers;
 }

@@ -1,11 +1,6 @@
 @import './js/scss/base.scss';
 
 .executive-club-container{
-  height: 115vh;
-}
-
-@media screen and(min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
-  .executive-club-container{
-    height: 220vh;
-  }
+  width: 90vw;
+  @extend .room-containers;
 }

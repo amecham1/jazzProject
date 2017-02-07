@@ -1,6 +1,8 @@
 import React from 'react'
 import './executives-text.scss'
 
+import ExecutiveCta from '../executiveCTA/ExecutiveCta'
+
 class ExecutivesText extends React.Component {
   render () {
     return (
@@ -21,6 +23,7 @@ class ExecutivesText extends React.Component {
           <li className='executive-benefit-item'>Large flat screen TV's located throughout the club</li>
           <li className='executive-benefit-item'>Incredible Suite Level view for Jazz games</li>
         </ul>
+        <ExecutiveCta />
       </div>
         )
   }
