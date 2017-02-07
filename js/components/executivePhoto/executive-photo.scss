@@ -29,3 +29,21 @@
 
  }
 }
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
+ .executive-photo-bottom{
+   display: none;
+ }
+ .executive-photo-container{
+   width: 90%;
+   margin: 1% auto 2% auto;
+   float: none;
+
+ }
+}
+@media screen and (min-width:$breakpoint-monitor){
+ .executive-photo-container{
+   width: 50%;
+   margin: 1% auto 2% auto;
+   float: right;
+ }
+}

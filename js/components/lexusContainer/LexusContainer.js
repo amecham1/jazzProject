@@ -8,7 +8,7 @@ import LexusText from '../lexusText/LexusText'
 class LexusContainer extends React.Component {
   render () {
     return (
-      <div className='lexus-container'>
+      <div className='lexus-container clearfix'>
         <LexusTitle />
         <LexusText />
         <LexusPhoto />

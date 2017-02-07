@@ -5,7 +5,7 @@ class Footer extends React.Component {
   render () {
     return (
       <div className='footer-container'>
-        <p>This is where the current ads and NBA disclaimers will go.</p>
+        <p>Placeholder for future / current ads and disclaimers.</p>
       </div>
     )
   }

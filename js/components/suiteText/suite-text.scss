@@ -36,3 +36,12 @@
     padding-left: 32px;
   }
 }
+
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
+  .suite-text-container{
+    width: 90%;
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding:10px 0 0 32px;
+  }
+}

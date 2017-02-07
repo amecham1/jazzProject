@@ -14,7 +14,7 @@
 }
 .landing-title{
   position: absolute;
-  top: 25%;
+  top: 37%;
   left: 33%;
   font-size: 3em;
   color: $jazz-white;
@@ -27,7 +27,7 @@ color: $jazz-white;
 font-size: 1.5em;
 font-weight: bold;
 position: absolute;
-top: 40%;
+top: 45%;
 left: 27%
 }
 
@@ -50,5 +50,36 @@ left: 27%
     text-align: center;
     padding: 20px;
   }
+}
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor) {
+  .landing-photo-box{
+    height: 30vh;
+  }
+  .landing-title{
+    font-size: 2.5em;
+  }
+  .landing-photo-acutal{
+    display: none;
+  }
+  .landing-title{
+    color: $jazz-blue;
+    top: 25%;
+    left: 25%;
+  }
+  .landing-sub-title{
+    color: $jazz-blue;
+    top: 30%;
+    left: 10%;
+    text-align: center;
+    padding: 20px;
+  }
+}
 
+@media screen and (min-width:$breakpoint-monitor){
+  .landing-title{
+    font-size: 3em;
+  }
+  .landing-photo-box{
+    height: 65vh;
+  }
 }

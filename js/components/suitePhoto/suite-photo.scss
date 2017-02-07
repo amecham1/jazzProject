@@ -28,9 +28,27 @@
 .suite-photo-top{
   padding-bottom: 4px;
 }
-  // .suite-group-photo{
-  //   display: flex;
-  //   flex-direction: column;
-  // }
+
+}
+
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
+.suite-photo-bottom{
+  display: none;
+}
+.suite-photo-container{
+  margin: 0 auto 0 auto;
+}
+.suite-photo-container{
+  float: none;
+}
+}
+@media screen and (min-width:$breakpoint-monitor){
+.suite-photo-bottom{
+  display: right;
+}
+.suite-photo-container{
+  width: 50%;
+  float: right;
+}
 
 }

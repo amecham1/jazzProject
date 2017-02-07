@@ -9,11 +9,11 @@ import ExecutivesText from '../executivesText/ExecutivesText'
 class ExecutivesClub extends React.Component {
   render () {
     return (
-      <div className='executive-club-container'>
+      <div className='executive-club-container clearfix'>
         <ExecutiveTitle />
         <ExecutivesText />
-        {/* <ExecutiveCta /> */}
         <ExecutivesPhoto />
+        {/* <ExecutiveCta /> */}
       </div>
           )
   }

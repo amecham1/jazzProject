@@ -33,3 +33,53 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
+  .executive-text-container{
+    width: 90%;
+    text-align: center;
+  }
+}
+@media screen and (min-width:$breakpoint-monitor){
+  .executive-text-container{
+    width: 45%;
+    margin: 0px;
+    display: inline-block;
+  }
+}
+
+.executive-cta-container{
+  float: right;
+  width: 45%;
+  margin: -9% 5% 0 0;
+  height: 30%
+}
+
+.cta-paragraph{
+  font-size: 1.2em;
+}
+
+.cta-name{
+ @extend .cta-info;
+}
+
+.cta-phone-number{
+@extend .cta-info;
+}
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+  .executive-cta-container{
+    width: 90%;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    float: none;
+  }
+}
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
+  .executive-cta-container{
+    width: 90%;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    float: none;
+  }
+}

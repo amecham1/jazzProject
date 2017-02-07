@@ -9,3 +9,9 @@
   text-align: center;
   padding: 20px;
 }
+@media screen and (min-width:$breakpoint-monitor){
+  .footer-container{
+    height: 15vh;
+    padding: 40px;
+  }
+}

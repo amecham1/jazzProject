@@ -26,3 +26,19 @@
 
   }
 }
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
+  .lexus-photo-container{
+    float: none;
+    width: 90%;
+    margin: 1% 2% 0 5%;
+
+  }
+}
+@media screen and (min-width:$breakpoint-monitor){
+  .lexus-photo-container{
+    float: left;
+    width: 45%;
+    margin: 1% 2% 0 5%;
+
+  }
+}

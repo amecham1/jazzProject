@@ -3,7 +3,7 @@
 .executive-cta-container{
   float: right;
   width: 45%;
-  margin: -1% 5% 0 0;
+  margin: -9% 5% 0 0;
   height: 30%
 }
 
@@ -20,6 +20,14 @@
 }
 
 @media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+  .executive-cta-container{
+    width: 90%;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    float: none;
+  }
+}
+@media screen and (min-width:$breakpoint-tablet) and (max-width:$breakpoint-monitor){
   .executive-cta-container{
     width: 90%;
     text-align: center;
