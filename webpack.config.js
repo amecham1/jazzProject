@@ -14,7 +14,7 @@ module.exports = {
     new ExtractTextPlugin('styles.css')
   ],
   devServer: {
-    publicPath: '/public/',
+    publicPath: './public/',
     historyApiFallback: true
   },
   resolve: {
