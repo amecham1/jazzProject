@@ -5,3 +5,9 @@
   width: 90vw;
   @extend .room-containers;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
