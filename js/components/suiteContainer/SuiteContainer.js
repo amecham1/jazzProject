@@ -7,7 +7,7 @@ import SuiteText from '../suiteText/SuiteText'
 class SuiteContainer extends React.Component {
   render () {
     return (
-      <div className='suite-container'>
+      <div className='suite-container clearfix'>
         <SuiteTitle />
         <SuitePhotoContainer />
         <SuiteText />
