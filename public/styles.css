@@ -1050,6 +1050,12 @@ table {
 
 .suite-container {
   width: 90vw;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }.room-titles,
 .suite-title {
   margin: 0 auto 30px auto;
