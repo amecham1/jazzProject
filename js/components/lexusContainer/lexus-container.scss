@@ -1,5 +1,12 @@
 @import './js/scss/base.scss';
 
 .lexus-container{
-  height: 120vh;
+  height: 115vh;
+}
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+  .lexus-container{
+    height: auto;
+    margin-bottom: 10%;
+  }
 }

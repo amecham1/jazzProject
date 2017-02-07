@@ -11,3 +11,12 @@
   width: 10%;
   margin-left: 5%;
 }
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet) {
+  .jazz-logo-header{
+    width:15%;
+  }
+  .main-header{
+    height: 12vh;
+  }
+}

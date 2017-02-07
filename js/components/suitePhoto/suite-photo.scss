@@ -2,7 +2,7 @@
 
 
 .suite-photo-container{
-  width: 600px;
+  width: 100%;
   float: right;
   margin: 1% 2% 0 0;
 }
@@ -16,4 +16,21 @@
 
 .suite-placement-left{
   @extend .placement-left-total;
+}
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+.suite-photo-container{
+  float: none;
+}
+.suite-photo-bottom{
+  display: none;
+}
+.suite-photo-top{
+  padding-bottom: 4px;
+}
+  // .suite-group-photo{
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+
 }

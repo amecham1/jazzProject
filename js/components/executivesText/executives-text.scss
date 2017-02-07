@@ -2,8 +2,7 @@
 
 .executive-text-container{
   width: 40%;
-  margin: 1% 5% 0 5%;
-  // float: right;
+  margin: 3% 5% 0 5%;
 }
 
 .title-suite-text{
@@ -26,4 +25,11 @@
 }
 .executive-benefit-item{
   padding-left: 1%;
+}
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+  .executive-text-container{
+    width: 90%;
+    text-align: center;
+  }
 }

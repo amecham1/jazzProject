@@ -22,3 +22,10 @@
 #banner-color-three{
   background-color: $jazz-blue;
 }
+
+@media screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-monitor){
+  .banner-div{
+  display: none;
+  }
+
+}

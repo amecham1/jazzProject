@@ -9,3 +9,9 @@
   color: $jazz-blue;
   @extend .room-names;
 }
+
+// @media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+//   .room-names{
+//     margin: 0 0 0 0;
+//   }
+// }

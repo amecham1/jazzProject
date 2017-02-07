@@ -1,5 +1,5 @@
 import React from 'react'
-import '../header-menu/header-menu.scss'
+import '../Header-menu/header-menu.scss'
 
 class HeaderMenu extends React.Component {
   render () {

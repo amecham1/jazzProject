@@ -21,3 +21,9 @@
   margin: 0 0 5px 15px;
   color: $nba-color;
 }
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-monitor){
+  .nba-header{
+    display: none;
+  }
+}

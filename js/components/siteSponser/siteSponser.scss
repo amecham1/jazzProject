@@ -14,3 +14,9 @@
   font-size: 1.3em;
   margin-top: 45px;
 }
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-monitor) {
+  .sponsor-box{
+    display: none;
+  }
+}

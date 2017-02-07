@@ -3,7 +3,7 @@
 .executive-cta-container{
   float: right;
   width: 45%;
-  margin: -8% 5% 0 0;
+  margin: -1% 5% 0 0;
 }
 
 .cta-paragraph{
@@ -16,4 +16,12 @@
 
 .cta-phone-number{
 @extend .cta-info;
+}
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+  .executive-cta-container{
+    width: 90%;
+    text-align: center;
+    margin-top: 10px;
+  }
 }

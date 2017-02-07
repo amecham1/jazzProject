@@ -29,3 +29,10 @@
 .cta-phone-number{
 @extend .cta-info;
 }
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+  .lexus-text-container{
+    width: 90%;
+    text-align: center;
+  }
+}

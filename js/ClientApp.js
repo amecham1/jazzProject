@@ -8,6 +8,7 @@ import LandingPhoto from './components/landingPhoto/LandingPhoto'
 import SuiteContainer from './components/suiteContainer/SuiteContainer'
 import LexusContainer from './components/lexusContainer/LexusContainer'
 import ExecutivesClub from './components/executivesClub/ExecutivesClub'
+import Footer from './components/Footer/Footer'
 
 class App extends React.Component {
   render () {
@@ -19,6 +20,7 @@ class App extends React.Component {
         <SuiteContainer />
         <LexusContainer />
         <ExecutivesClub />
+        <Footer />
       </div>
     )
   }

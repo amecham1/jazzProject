@@ -17,3 +17,14 @@
 .executive-placement-left{
   @extend .placement-left-total;
 }
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+ .executive-photo-bottom{
+   display: none;
+ }
+ .executive-photo-container{
+   width: 90%;
+   margin: 1% 5% 2% 2%;
+
+ }
+}

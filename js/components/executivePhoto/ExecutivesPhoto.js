@@ -6,7 +6,7 @@ class ExecutivesPhoto extends React.Component {
     return (
       <div className='executive-photo-container'>
         <div className='executive-photo-top'>
-          <img className='executive-main-photo' src='js/img/suiteCarousel/Suite-View-Empty.jpg' alt='View of the Vivint Arena Interior' />
+          <img className='executive-main-photo' src='js/img/executivePhotos/View-Arena.jpg' alt='View of the Vivint Arena Interior' />
         </div>
         <div className='executive-photo-bottom'>
           <img className='executive-group-photo executive-placement-left' src='js/img/suiteCarousel/Jazz-Food-092.jpg' alt='photo of buffet selection' />

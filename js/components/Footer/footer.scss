@@ -1,0 +1,11 @@
+@import './js/scss/base.scss';
+
+.footer-container{
+  width: 100vw;
+  height:10vh;
+  margin-top: 50%;
+  background-color: $jazz-blue;
+  color: $jazz-white;
+  text-align: center;
+  padding: 20px;
+}

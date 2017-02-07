@@ -4,6 +4,9 @@ $jazz-yellow:#F89F1F;
 $jazz-green:#2D5235;
 $jazz-white:#FFFFFF;
 $header-font: Arial,"Helvetica Neue", Helvetica,sans-serif;
+$breakpoint-mobile: 320px;
+$breakpoint-tablet: 768px;
+$breakpoint-monitor: 1026px;
 
 .room-titles{
   margin: 0 auto 30px auto;
@@ -38,4 +41,19 @@ $header-font: Arial,"Helvetica Neue", Helvetica,sans-serif;
 .cta-info{
   color: $jazz-yellow;
   font-weight: bold;
+}
+
+@media screen and (min-width:$breakpoint-mobile) and (max-width:$breakpoint-tablet){
+  .room-names{
+    margin: 0 0 0 0;
+  }
+  .group-photo-total{
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto 0 auto;
+  }
+  .placement-left-total{
+    padding-right: 0px;
+    padding-bottom: 6px;
+  }
 }
